@@ -5,61 +5,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="./images/favicon.webp" />
     <link rel="stylesheet" href="https://unpkg.com/normalize.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
+    <script defer src="./js/carousel.js"></script>
     <title>Jhaydzcrafts Handicrafts</title>
   </head>
   <body>
     <!-- header -->
     <header class="header">
-        <div class="navbar">
-            <div class="container-nav">
-                <span></span>
-                <h1>Jhaydzcrafts Handmade</h1>
-                <nav>
-                  <ul class="nav-list">
-                    <li class="nav-list-item"><a  href="">Products</a></li>
-                    <li class="nav-list-item"><a  href="">About</a></li>
-                  </ul>
-                </nav>
-            </div>
-          </div>
+      <div class="navbar">
+        <div class="container-nav">
+          <span></span>
+          <h1>Jhaydzcrafts Handmade</h1>
+          <nav>
+            <ul class="nav-list">
+              <li class="nav-list-item"><a href="">Products</a></li>
+              <li class="nav-list-item"><a href="">Promos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
     <main>
-        <!-- hero -->
+      <!-- hero -->
       <section class="section-hero">
         <div class="container-hero">
-            <img src="./images/hero.webp" alt="jhaydzcrafts banner ">
-            <h2 class='hero-subtitle'>"Crafting your imagination into an exquisite creation"</h2>
+          <img src="./images/hero.webp" alt="jhaydzcrafts banner " />
+          <h2 class="hero-subtitle">
+            "Crafting your imagination into an exquisite creation"
+          </h2>
         </div>
       </section>
       <!-- welcome -->
-       <section class="section section-welcome">
+      <section class="section section-welcome">
         <div class="container-welcome">
-            <h3 class="welcome-greet">Welcome to Jhaydzcrafts!</h3>
-            <span class="emoji">👋😊</span>
-        <p class="welcome-message">We are an online shop specializing in handmade crafts, including Macrame, beading, and various fashion and home accessory styles.</p>
-    </div>
-       </section>
-       <!-- gallery -->
-        <section>
-            <section class="image-collage">
-                <img src="image1.jpg" alt="Image 1">
-                <img src="image2.jpg" alt="Image 2">
-                <img src="image3.jpg" alt="Image 3">
-                <!-- Add more images -->
-              </section>
-        </section>
-        <div class="tag-list">
-            <ul>
-              <li><a href="#accessory">Accessories</a></li>
-              <li><a href="#tumbler">Tumbler Holder</a></li>
-              <li><a href="#decor">Home Decor</a></li>
-              <li><a href="#souvenir">Souvenirs</a></li>
-            </ul>
-          </div>
+          <h2>Welcome to Jhaydzcrafts!</h2>
+          <span class="emoji">👋😊</span>
+          <p>We are an online shop specializing in handmade crafts, including
+            Macrame, beading, and various fashion and home accessory styles.
+          </p>
+        </div>
+      </section>
+      <!-- gallery -->
+      <section class="section-accessories">
+        <div class="container-accessories">
+          <div class="title-accessories">
+          <h2>We are proud to show you our creations…</h2>
+          <p>In our four years of operation, we’ve crafted exceptional pieces that have been greatly admired by those who appreciate our style and recognize the value of their money.</p>
+        </div>
+          <ul class="product-list">
+            <li class="product-card">
+              <div class="carousel">
+                <button class="prev">❮</button>
+                <div class="carousel-images">
+                  <img src="./images/earring/hoopearring/woodearring1.webp" alt="earringcollection1" />
+                  <img src="./images/earring/hoopearring/woodearring2.webp" alt="earringcollection2" />
+                  <img src="./images/earring/hoopearring/woodearring3.webp" alt="earringcollection3" />
+                  <img src="./images/earring/hoopearring/woodearring4.webp" alt="earringcollection4" />
+                </div>
+                <button class="next">❯</button>
+              </div>
+              <div class="product-details">
+                <h3 class="product-name">Macrame Hoop Flower Earrings</h3>
+                <p class="product-size">Size: 20mm. - 30mm.</p>
+                <p class="product-price">₱80.00 - 100.00</p>
+                <p class="product-note">Note: Bulk Orders - LESS ₱10.00 each, min. of 10pcs.</p>
+                <button class="order-button">Order Now</button>
+              </div>
+            </li>
+            <li class="product-card">
+              <div class="carousel">
+                <button class="prev">❮</button>
+                <div class="carousel-images">
+                  <img src="./images/earring/woodearring/woodearring1.webp" alt="earringcollection1" />
+                  <img src="./images/earring/woodearring/woodearring2.webp" alt="earringcollection2" />
+                  <img src="./images/earring/woodearring/woodearring3.webp" alt="earringcollection3" />
+                  <img src="./images/earring/woodearring/woodearring4.webp" alt="earringcollection3" />
+                </div>
+                <button class="next">❯</button>
+              </div>
+              <div class="product-details">
+                <h3 class="product-name">Macrame Wood Earrings</h3>
+                <p class="product-size">Type: Regular - Premium</p>
+                <p class="product-price">₱120.00 - 150.00</p>
+                <p class="product-note">Note: Bulk Orders - LESS ₱10.00 each, min. of 10pcs.</p>
+                <button class="order-button">Order Now</button>
+              </div>
+            </li>
+            <li class="product-card">
+              <div class="carousel">
+                <button class="prev">❮</button>
+                <div class="carousel-images">
+                  <img src="./images/earring/bohoearring/bohoearring1.webp" alt="earringcollection1" />
+                  <img src="./images/earring/bohoearring/bohoearring2.webp" alt="earringcollection2" />
+                  <img src="./images/earring/bohoearring/bohoearring3.webp" alt="earringcollection3" />
+                  <img src="./images/earring/bohoearring/bohoearring4.webp" alt="earringcollection3" />
+                </div>
+                <button class="next">❯</button>
+              </div>
+              <div class="product-details">
+                <h3 class="product-name">Macrame Boho Earrings</h3>
+                <p class="product-size">Type: Regular - Premium</p>
+                <p class="product-price">₱120 - 150.00</p>
+                <p class="product-note">Note: Refer to Product Page for Style and Pricing</p>
+                <button class="order-button">Order Now</button>
+              </div>
+            </li>
+            <li class="product-card">
+              <div class="carousel">
+                <button class="prev">❮</button>
+                <div class="carousel-images">
+                  <img src="./images/earring/beadearring/beadearring1.webp" alt="earringcollection1" />
+                  <img src="./images/earring/beadearring/beadearring2.webp" alt="earringcollection2" />
+                  <img src="./images/earring/beadearring/beadearring3.webp" alt="earringcollection3" />
+                  <img src="./images/earring/beadearring/beadearring4.webp" alt="earringcollection3" />
+                </div>
+                <button class="next">❯</button>
+              </div>
+              <div class="product-details">
+                <h3 class="product-name">Macrame Bead Earrings</h3>
+                <p class="product-size">Size: 20mm. - 30mm.</p>
+                <p class="product-price">₱120 - 150.00</p>
+                <p class="product-note">Note: Bulk Orders - LESS ₱10.00 each, min. of 10pcs.</p>
+                <button class="order-button">Order Now</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- <div class="tag-list">
+        <ul>
+          <li><a href="#accessory">Accessories</a></li>
+          <li><a href="#tumbler">Tumbler Holder</a></li>
+          <li><a href="#decor">Home Decor</a></li>
+          <li><a href="#souvenir">Souvenirs</a></li>
+        </ul>
+      </div> -->
     </main>
   </body>
 </html>
