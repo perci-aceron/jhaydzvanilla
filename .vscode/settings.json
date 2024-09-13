@@ -1,5 +1,6 @@
 {
   "pieces.cloudCapabilities": "Blended",
   "pieces.telemetry": true,
-  "cSpell.words": ["jhaydzcrafts"]
+  "cSpell.words": ["jhaydzcrafts"],
+  "liveServer.settings.port": 5501
 }

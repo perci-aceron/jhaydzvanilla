@@ -336,7 +336,20 @@ button.prev {
 button.next {
   right: 5px;
 }
-
+/* footer */
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--green0);
+  color: var(--black);
+  /* padding: 1rem; */
+  text-align: center;
+  font-size: var(--816);
+}
+.footer-links {
+  display: flex;
+}
 /* --------taglinks--------- */
 .tag-list {
   position: fixed;
